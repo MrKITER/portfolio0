@@ -1,0 +1,39 @@
+.benefits
+    background-color: #F6F6F6
+    min-height: 473px
+    padding-top: 73px
+    &__wrapper
+        margin-top: 60px
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__item
+        width: 277px
+        min-height: 257px
+        font-weight: 300
+        font-size: 14px
+        text-align: center
+        color: #0D0D0D
+        span
+            display: block
+            margin: 0 auto
+            margin-bottom: 20px
+            font-weight: 700
+            font-size: 18px
+            text-align: center
+            color: #0D0D0D
+        .red
+            text-decoration-line: underline
+            color: #FF0000
+    &__icon
+        display: block
+        margin: 0 auto
+        margin-bottom: 35px
+        &_animated
+            animation: heartbeat 1.5s ease infinite
+            /* animation-name: heartbeat */
+            /* animation-duration: 1.5s */
+            /* animation-timing-function: ease */
+            /* animation-iteration-count: infinite */
+            &:hover
+                animation-play-state: paused
