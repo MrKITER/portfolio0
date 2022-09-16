@@ -33,7 +33,7 @@
         font-weight: 700;
         font-size: 14px;
         line-height: 21px;
-        color: #FFEACE;
+        color: $sub_color;
         padding: 12px 0px;
         &:hover {
             color: #000000;
@@ -47,7 +47,7 @@
             text-align: center;
             &:hover {
                 background-color: $main_color;
-                border: 2px solid #FFEACE;
+                border: 2px solid $sub_color;
                 box-shadow: 2px 2px 0px #ffffff, -1px -1px 0px #b6b6b6;
             }
         }
@@ -67,7 +67,7 @@
             display: block;
             width: 30px;
             height: 3px;
-            background: #BFAA8D;
+            background: $main_color;
         }
         span.long {
             width: 36px;

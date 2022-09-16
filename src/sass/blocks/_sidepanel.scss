@@ -12,7 +12,7 @@
     &__link {
         transition: 0.5s all;
         &:hover {
-            border: 2px solid #FFEACE;
+            border: 2px solid $sub_color;
             border-radius: 5px;
             padding: 3px 5px 5px 5px;
             box-shadow:  2px 2px 0px #ffffff, -1px -1px 0px #b6b6b6;
@@ -21,12 +21,12 @@
     &__divider {
         width: 2px;
         height: 70px;
-        background-color: #FFEACE;
+        background-color: $sub_color;
     }
     &__text {
         height: 150px;
         width: 25px;
-        color: #FFEACE;
+        color: $sub_color;
         span {
             transform: rotate(-90deg) translate(-30%, -260%);
             display: block;

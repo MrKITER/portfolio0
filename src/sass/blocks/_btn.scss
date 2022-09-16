@@ -11,7 +11,7 @@
     padding: 12px 26px;
     transition: 0.5s all;
     &:hover {
-        border: 2px solid #FFEACE;
+        border: 2px solid $sub_color;
         border-radius: 5px;
         box-shadow: 2px 2px 0px #ffffff, -1px -1px 0px #b6b6b6;
     }
