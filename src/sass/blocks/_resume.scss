@@ -1,0 +1,114 @@
+.resume {
+    padding-top: 127px;
+    &__tittle {
+        position: relative;
+        text-align: center;
+        &::before {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 36px;
+            height: 36px;
+            background: $main_color;
+            border-radius: 100%;
+            z-index: -1;
+        }
+    }
+    &__subtittle {
+        text-align: center;
+    }
+    &__column {
+        &-tittle {
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 0;
+            &::before {
+                content: '';
+                position: absolute;
+                width: 15px;
+                height: 15px;
+                background: $main_color;
+                border-radius: 100%;
+                left: -7px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        ul {
+            list-style-type: none;
+            li {
+                position: relative;
+                &::after {
+                    content: '';
+                    width: 1px;
+                    height: calc(100% + 4px);
+                    position: absolute;
+                    top: -8px;
+                    left: 0;
+                    background-color: #000;
+                }
+            }
+        }
+    }
+    &__item {
+        position: relative;
+        &::before {
+            content: '';
+            height: 1px;
+            width: 42px;
+            position: absolute;
+            top: 53px;
+            background-color: #000;
+        }
+        &-head {
+            padding: 35px 0 0 100px;
+            position: relative;
+        }
+        &-body {
+            padding-left: 43px;
+            margin-top: 12px;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            color: #000000;
+        }
+        &-icon {
+            position: absolute;
+            top: 40px;
+            left: 60px;
+            &::before {
+                content: '';
+                position: absolute;
+                top: -5px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 36px;
+                height: 36px;
+                background: $main_color;
+                border-radius: 100%;
+                z-index: -1;
+            }
+            img {
+                position: absolute;
+                left: 0;
+                top: 7px;
+            }
+        }
+        &-location {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            color: #000000;
+        }
+    }
+    &__wrapper {
+        padding: 0px 90px;
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(2, 425px);
+        column-gap: 110px;
+
+    }
+}
